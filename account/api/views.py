@@ -4,7 +4,7 @@ from . serializer import ProfileSerializer
 
 
 
-class ProfileListCreateView(generics.ListCreateAPIView):
+class ProfileListView(generics.ListAPIView):
     queryset = Data.objects.all()
     serializer_class = ProfileSerializer
 
