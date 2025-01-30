@@ -1,22 +1,16 @@
 #THIS SOFTWARE IS PROVIDED BY SUPREME_PRAIZ
 
-HNG
-﻿
+#HNG
 
-GET
-http://127.0.0.1:8000/profile/
 
-﻿
+GET Method for the API request:
+Example Request:
+https://hng-project-l30z.onrender.com/profile/
 
-Example
-http://127.0.0.1:8000/profile/
-Request
-cURL
-curl --location 'http://127.0.0.1:8000/profile/'
-200 OK
-Response
-Body
-Headers (10)
+
+
+Response:
+
 json
 [
     {
@@ -26,8 +20,3 @@ json
         "github_urls": "https://github.com/SupremePraiz/hng_project.git"
     }
 ]
-JUMP TO
-Introduction
-GET
-http://127.0.0.1:8000/profile/
-Online
