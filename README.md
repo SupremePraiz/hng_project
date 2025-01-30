@@ -4,6 +4,7 @@
 
 
 GET Method for the API request:
+
 Example Request:
 https://hng-project-l30z.onrender.com/profile/
 
