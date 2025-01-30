@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-@u0e3ua@i)68q8@2dnr-dnt3l*wx(1mvyk4h90i6utkvf5-+!3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["hng-project-l30z.onrender.com"]
+ALLOWED_HOSTS = ["hng-project-l30z.onrender.com", "localhost", "127.0.0.1"]
 
 
 # Application definition
@@ -129,4 +129,19 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # Allow all origins
-CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_CREDENTIALS = True
+# CSRF_TRUSTED_ORIGINS = [
+#     "https://hng-project-l30z.onrender.com",
+# ]
+
+
+RS_ALLOWED_ORIGINS = [
+    "https://hng-project-l30z.onrender.com", 
+    "http://localhost:8000"  # If testing locally
+]
+CORS_ALLOW_CREDENTIALS = True
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://hng-project-l30z.onrender.com",
+]
