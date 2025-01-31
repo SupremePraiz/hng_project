@@ -1,23 +1,30 @@
-#THIS SOFTWARE IS PROVIDED BY SUPREME_PRAIZ
+#THIS Project IS PROVIDED BY SUPREME_PRAIZ
 
-#HNG
+HNG-12-Stage-0
 
+This is the backend project for HNG-12 Stage 0. The project implements a REST API and contains basic testing. It’s built using Django and DjangoRestFrameWork.
 
-GET Method for the API request:
+Table of Contents
 
-Example Request:
-https://hng-project-l30z.onrender.com/profile/
+    HNG-12-Stage-0
+        Table of Contents
+        Installation
+    Hire Python Developers
 
+Installation
 
+To set up the project on your local machine, follow these steps:
 
-Response:
+    simple steps to clone the project
 
-json
-[
-    {
-        "id": 1,
-        "email": "supremepraiz2@gmail.com",
-        "current_datetime": "2025-01-29T14:34:19.344064Z",
-        "github_urls": "https://github.com/SupremePraiz/hng_project.git"
-    }
-]
+    git clone https://github.com/SupremePraiz/hng_project.git
+
+    pip install requirements.txt 
+    py manage.py runserver
+   
+
+Hire Python Developers
+
+Looking for skilled python developers? Check out the hiring page below:
+
+Hire a Python Developers (https://hng.tech/hire/python-developers)
